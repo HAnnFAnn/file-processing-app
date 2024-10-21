@@ -74,7 +74,7 @@ Response:
   ```
   mvn spring-boot:run
   ```
-  The application will start and be available at http://localhost:8080.
+  The application will start and be available at http://localhost:8080/api.
 
 Configuration
 
