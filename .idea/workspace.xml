@@ -5,15 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69f8220a-40ef-4e97-9ef7-bdb9c9aaf457" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/FileProcessiingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/FileProcessiingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLinkDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLinkDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLinkStatusDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLinkStatusDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLoadingRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileLoadingRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileStatusRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileStatusRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/dto/FileStatusResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileLoadingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileLoadingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/entity/FileStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/repo/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/repo/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/processing/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/processing/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2nhOaXiL2HGfs3PIevxez1r2lth" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,14 +49,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.codeium.enabled": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hann/JavaProj/TestTask-Filippova/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39310345&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7ab62558bbe5e181b5db52ccfca28924&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.processing.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FileProcessiingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="file-processing-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.processing.FileProcessiingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +96,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729421908091</updated>
-      <workItem from="1729421909362" duration="1000" />
+      <workItem from="1729421909362" duration="14319000" />
+      <workItem from="1729459518594" duration="62000" />
+      <workItem from="1729459622949" duration="4539000" />
+      <workItem from="1729492566218" duration="2483000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

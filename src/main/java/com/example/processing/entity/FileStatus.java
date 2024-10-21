@@ -1,6 +1,6 @@
-package com.example.RESTfulAPI.entity;
+package com.example.processing.entity;
 
-public enum TaskStatus {
+public enum FileStatus {
     IN_PROGRESS,
     DONE
 }

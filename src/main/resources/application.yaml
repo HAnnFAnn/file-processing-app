@@ -1,36 +1,29 @@
-app:
-  host-url: http://localhost:8080
-
 spring:
-  init:
-    mode: never
-  jpa:
-    show-sql: true
-    open-in-view: false
-
-    hibernate:
-      ddl-auto: validate
-
-    properties:
-      hibernate:
-        format_sql: true
-
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/todo
-    username: postgres
-    password: postgres
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
 
-  feign:
-    client:
-      config:
-        default:
-          connectTimeout: 5000
-          readTimeout: 5000
-          loggerLevel: full
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    rest:
+      base-path: /api
+
+async:
+  executor:
+    thread-core-pool-size: 10
+    thread-max-pool-size: 50
+    thread-queue-capacity: 100
 
 logging:
   level:
-    root: WARN
-    com.example.RESTfulAPI: DEBUG
-    org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver: DEBUG
+    org.springframework: INFO
+    com.example: DEBUG
