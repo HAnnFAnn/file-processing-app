@@ -34,22 +34,20 @@ public class FileService {
         request.setRequestId(requestDTO.getRequestId());
         request.setConsumer(requestDTO.getConsumer());
 
-        List<FileLink> fileLinks = new CopyOnWriteArrayList<>(requestDTO.getFileLinks().stream()
+        List<FileLink> fileLinks = requestDTO.getFileLinks().stream()
                 .map(link -> new FileLink(link.getFileLink(), FileStatus.IN_PROGRESS, request))
-                .collect(Collectors.toList()));
-
+                .collect(Collectors.toCollection(CopyOnWriteArrayList::new));
         request.setFileLinks(fileLinks);
         requestRepository.save(request);
 
-        // Потокобезопасная итерация
-        fileLinks.forEach(fileLink -> processFile(fileLink));
+        fileLinks.forEach(this::processFile);
     }
 
     @Async
     public void processFile(FileLink fileLink) {
         try {
             // Имитация вызова REST API для загрузки данных
-            String response = restTemplate.getForObject("https://file-api.com/download/" + fileLink.getFileLink(), String.class);
+            restTemplate.getForObject("https://file-api.com/download/" + fileLink.getFileLink(), String.class);
             fileLink.setStatus(FileStatus.DONE);
         } catch (Exception e) {
             fileLink.setStatus(FileStatus.IN_PROGRESS);

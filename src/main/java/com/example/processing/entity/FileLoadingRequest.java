@@ -9,8 +9,6 @@ import java.util.List;
 @Entity
 @Table(name = "file_loading_requests")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
@@ -29,6 +27,4 @@ public class FileLoadingRequest {
     @Column(name = "file_links", nullable = false)
     @OneToMany(mappedBy = "request", cascade = CascadeType.ALL)
     private List<FileLink> fileLinks;
-
-    // Getters, setters, equals, hashCode
 }
