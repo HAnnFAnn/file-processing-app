@@ -7,8 +7,6 @@ import lombok.*;
 @Entity
 @Table(name = "file_links")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
